@@ -1,0 +1,133 @@
+#header .header-inner {
+    background-color: #FFE135;
+}
+
+#mainMenu nav > ul > li:hover > a, #mainMenu nav > ul > li:focus > a, #mainMenu nav > ul > li.current > a {
+    color: #0c9ec7;
+}
+
+a {
+    color: #0c9ec7;
+}
+
+.grid li:after {
+    border-bottom: none;
+}
+
+
+#scrollTop:after, #scrollTop:before {
+    background-color: #0c9ec7;
+}
+
+.portfolio-item .portfolio-description a:hover i, .portfolio-item .grid-description a:hover i, .portfolio-item .portfolio-links a:hover i, .grid-item .portfolio-description a:hover i, .grid-item .grid-description a:hover i, .grid-item .portfolio-links a:hover i {
+    background-color: #3D4045;
+    border: 1px solid #3D4045;
+}
+.inspiro-slider .slide .container{
+    padding-top:0;
+}
+.postPage li {
+    margin-left: 35px
+}
+
+
+button.btn:hover, button.btn:focus, button.btn:not(:disabled):not(.disabled):active, .btn:not(.close):not(.mfp-close):hover, .btn:not(.close):not(.mfp-close):focus, .btn:not(.close):not(.mfp-close):not(:disabled):not(.disabled):active, button.btn, .btn:not(.close):not(.mfp-close) {
+    background-color: #0c9ec7;
+    border-color: #0c9ec7;
+}
+
+.flickity-button:hover, .background-colored {
+    background-color: #0c9ec7 !important;
+}
+
+.grid li {
+    padding: 20px 0px;
+}
+
+.icon-box.center p {
+    margin-top: 0px;
+}
+
+.hero-heading-2 {
+    background-color: #3D4045;
+}
+
+.call-to-action.call-to-action-colored {
+    background-color: #f7d200;
+}
+
+.categoryCol button.btn.btn-rounded, .categoryCol .btn:not(.close):not(.mfp-close).btn-rounded, .categoryCol button.btn.btn-outline:hover, .categoryCol .btn:not(.close):not(.mfp-close).btn-outline:hover, .categoryCol button.btn:hover, .categoryCol button.btn:focus, .categoryCol button.btn:not(:disabled):not(.disabled):active,
+.categoryCol .btn:not(.close):not(.mfp-close):hover, .categoryCol .btn:not(.close):not(.mfp-close):focus, .categoryCol .btn:not(.close):not(.mfp-close):not(:disabled):not(.disabled):active {
+    border-radius: 0 !important;
+    border: none;
+    background-color: white;
+}
+
+.client-logos .polo-carousel-item {
+    padding: 20px 0px;
+}
+
+.box-fancy [class*="col-"] {
+    padding: 2% !important;
+}
+
+button.btn.btn-reveal, .btn:not(.close):not(.mfp-close).btn-reveal {
+    padding: 0px;
+    margin: -5px 0;
+}
+
+.categoryCol span {
+    color: #1e1e1e;
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    letter-spacing: 0.08px;
+    width: 75%;
+}
+
+.categoryCol i {
+    opacity: 1 !important;
+    color: #0c9ec7;
+}
+
+@media (min-width: 1024px) {
+    .footerHeight{
+        height: 80vh;
+    }
+    section {
+        padding: 40px;
+    }
+}
+.header-extras > ul > li > a:not(.btn) i{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.header-extras > ul > li > a:not(.btn){
+    margin-top: 3px;
+}
+#section-products .product{
+    border: 1px solid #eee;
+    cursor: pointer;
+    min-height: 350px;
+    height: 350px;
+    max-height: 350px;
+    border-radius: 4px;
+    transition: 0.5s all;
+    box-shadow: 0px 0px 10px rgb(138 138 138 / 19%);
+}
+#section-products .product .product-description{
+   padding:15px;
+}
+.sidebar-left .product-image{
+    box-shadow: rgb(6 24 44 / 40%) 0px 0px 0px 2px, rgb(6 24 44 / 65%) 0px 4px 6px -1px, rgb(255 255 255 / 8%) 0px 1px 0px inset;
+    height: auto;
+    position: relative;
+}
+.sidebar-left .product-description table td{
+    border:1px solid #ccc !important;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.sidebar-left .product-description table tbody{
+  background-color: #f4f4f4;
+}
